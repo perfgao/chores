@@ -22,3 +22,6 @@ jobs:
           with:
             limit-access-to-actor: false
      
+        - name: Run tests
+          run: |
+            python get.py
